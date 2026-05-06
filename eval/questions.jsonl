@@ -1,0 +1,30 @@
+{"id": "q01", "query": "Who founded Helios Solar?", "expected_docs": ["01_about_helios"], "answer_contains": ["Maya Chen", "Daniel Park"]}
+{"id": "q02", "query": "When was Helios Solar founded?", "expected_docs": ["01_about_helios"], "answer_contains": ["2014"]}
+{"id": "q03", "query": "How many systems has Helios installed?", "expected_docs": ["01_about_helios"], "answer_contains": ["12,000"]}
+{"id": "q04", "query": "What is the wattage of the H-450 panel?", "expected_docs": ["02_residential_panels"], "answer_contains": ["450"]}
+{"id": "q05", "query": "How many panels does a typical 4-bedroom Austin home need?", "expected_docs": ["02_residential_panels"], "answer_contains": ["18", "22"]}
+{"id": "q06", "query": "What is the storage capacity of one Helios Vault unit?", "expected_docs": ["03_battery_storage"], "answer_contains": ["13.5"]}
+{"id": "q07", "query": "What rebate is available for pairing the Vault with H-400 panels in Texas?", "expected_docs": ["03_battery_storage"], "answer_contains": ["4,000", "Resilient Homes"]}
+{"id": "q08", "query": "How long does a typical installation take?", "expected_docs": ["04_installation_process"], "answer_contains": ["1-3 days", "1 to 3 days", "single day"]}
+{"id": "q09", "query": "How long is the H-400 panel power warranty?", "expected_docs": ["05_warranty"], "answer_contains": ["25"]}
+{"id": "q10", "query": "What is the warranty on the Helios Vault battery?", "expected_docs": ["05_warranty"], "answer_contains": ["10", "6,000 cycles"]}
+{"id": "q11", "query": "What was Helios revenue in Q3 2025?", "expected_docs": ["06_q3_2025_earnings"], "answer_contains": ["48.2"]}
+{"id": "q12", "query": "What was the battery attach rate in Q3 2025?", "expected_docs": ["06_q3_2025_earnings"], "answer_contains": ["38"]}
+{"id": "q13", "query": "Which state was Helios's largest market in Q3 2025?", "expected_docs": ["06_q3_2025_earnings"], "answer_contains": ["Texas", "62%"]}
+{"id": "q14", "query": "What was full year 2025 revenue?", "expected_docs": ["07_q4_2025_earnings"], "answer_contains": ["192"]}
+{"id": "q15", "query": "What is the 2026 revenue guidance?", "expected_docs": ["07_q4_2025_earnings"], "answer_contains": ["230", "240"]}
+{"id": "q16", "query": "How many panels did the Chen family install?", "expected_docs": ["08_customer_case_chen"], "answer_contains": ["22"]}
+{"id": "q17", "query": "What was the Chen family's electric bill before solar?", "expected_docs": ["08_customer_case_chen"], "answer_contains": ["310"]}
+{"id": "q18", "query": "What are the Helios financing options?", "expected_docs": ["09_financing"], "answer_contains": ["cash", "loan", "PPA"]}
+{"id": "q19", "query": "What is the PPA rate per kWh in Texas?", "expected_docs": ["09_financing"], "answer_contains": ["9.2"]}
+{"id": "q20", "query": "Why did Helios switch to microinverters in the H-450?", "expected_docs": ["10_engineering_blog_microinverters"], "answer_contains": ["partial shading", "8", "13"]}
+{"id": "q21", "query": "How is Helios's battery business growing year over year?", "expected_docs": ["06_q3_2025_earnings", "07_q4_2025_earnings"], "answer_contains": ["38", "44", "24"]}
+{"id": "q22", "query": "Compare cash purchase vs PPA financing", "expected_docs": ["09_financing"], "answer_contains": ["cash", "PPA"]}
+{"id": "q23", "query": "What is the maximum battery capacity available by stacking units?", "expected_docs": ["03_battery_storage"], "answer_contains": ["54"]}
+{"id": "q24", "query": "Where is Helios headquartered?", "expected_docs": ["01_about_helios"], "answer_contains": ["Austin"]}
+{"id": "q25", "query": "What states does Helios operate in?", "expected_docs": ["01_about_helios"], "answer_contains": ["Texas", "Arizona", "New Mexico"]}
+{"id": "q26", "query": "Is the PPA available in all states Helios serves?", "expected_docs": ["09_financing"], "answer_contains": ["unavailable", "Arizona", "New Mexico"]}
+{"id": "q27", "query": "What is the production guarantee at year 25 for H-400 panels?", "expected_docs": ["05_warranty"], "answer_contains": ["87"]}
+{"id": "q28", "query": "How fast did Arizona grow in Q3 2025?", "expected_docs": ["06_q3_2025_earnings"], "answer_contains": ["41"]}
+{"id": "q29", "query": "What was the gross margin in Q3 2025?", "expected_docs": ["06_q3_2025_earnings"], "answer_contains": ["31"]}
+{"id": "q30", "query": "What is the meaning of life?", "expected_docs": [], "answer_contains": ["I don't have", "no information", "not contain"]}

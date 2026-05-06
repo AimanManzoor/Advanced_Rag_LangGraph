@@ -1,0 +1,917 @@
+{
+  "metrics": {
+    "total_questions": 30,
+    "successful_runs": 29,
+    "errored_runs": 1,
+    "answer_match_rate": 1.0,
+    "citation_accuracy": 1.0,
+    "retrieval_at_5": 1.0,
+    "avg_confidence": 0.9620689655172413,
+    "avg_attempts": 1.0344827586206897,
+    "median_latency_s": 5.295478582382202,
+    "p95_latency_s": 10.000972032546997,
+    "route_distribution": {
+      "simple": 12,
+      "multi_hop": 17
+    }
+  },
+  "results": [
+    {
+      "id": "q01",
+      "query": "Who founded Helios Solar?",
+      "expected_docs": [
+        "01_about_helios"
+      ],
+      "expected_substrings": [
+        "Maya Chen",
+        "Daniel Park"
+      ],
+      "answer": "Helios Solar was founded by Maya Chen and Daniel Park, both former engineers at a national utility [01_about_helios].",
+      "citations": [
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "01_about_helios",
+        "01_about_helios",
+        "09_financing",
+        "02_residential_panels",
+        "02_residential_panels"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "Who founded Helios Solar company founder CEO original creator establishment?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.9417290687561035,
+      "error": null
+    },
+    {
+      "id": "q02",
+      "query": "When was Helios Solar founded?",
+      "expected_docs": [
+        "01_about_helios"
+      ],
+      "expected_substrings": [
+        "2014"
+      ],
+      "answer": "Helios Solar was founded in 2014 in Austin, Texas [01_about_helios].",
+      "citations": [
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "01_about_helios",
+        "01_about_helios",
+        "02_residential_panels",
+        "08_customer_case_chen",
+        "09_financing"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "When was Helios Solar company founded established creation date?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.865392684936523,
+      "error": null
+    },
+    {
+      "id": "q03",
+      "query": "How many systems has Helios installed?",
+      "expected_docs": [
+        "01_about_helios"
+      ],
+      "expected_substrings": [
+        "12,000"
+      ],
+      "answer": "Helios Solar has installed over 12,000 systems as of 2025 [01_about_helios].",
+      "citations": [
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "01_about_helios",
+        "01_about_helios",
+        "02_residential_panels",
+        "08_customer_case_chen",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "How many systems has Helios installed deployed implemented?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.295478582382202,
+      "error": null
+    },
+    {
+      "id": "q04",
+      "query": "What is the wattage of the H-450 panel?",
+      "expected_docs": [
+        "02_residential_panels"
+      ],
+      "expected_substrings": [
+        "450"
+      ],
+      "answer": "The H-450 panel produces 450W [02_residential_panels].",
+      "citations": [
+        "02_residential_panels"
+      ],
+      "reranked_docs": [
+        "02_residential_panels",
+        "05_warranty",
+        "10_engineering_blog_microinverters",
+        "02_residential_panels",
+        "10_engineering_blog_microinverters"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What is the power output wattage capacity of the H-450 solar panel module?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.1981360912323,
+      "error": null
+    },
+    {
+      "id": "q05",
+      "query": "How many panels does a typical 4-bedroom Austin home need?",
+      "expected_docs": [
+        "02_residential_panels"
+      ],
+      "expected_substrings": [
+        "18",
+        "22"
+      ],
+      "answer": "A typical 4-bedroom home in Austin needs 18-22 panels of the H-400 [02_residential_panels].",
+      "citations": [
+        "02_residential_panels"
+      ],
+      "reranked_docs": [
+        "02_residential_panels",
+        "01_about_helios",
+        "08_customer_case_chen",
+        "08_customer_case_chen",
+        "02_residential_panels"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "How many solar panels photovoltaic panels does a typical standard average 4-bedroom residential home in Austin Texas require need?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 7.4379799365997314,
+      "error": null
+    },
+    {
+      "id": "q06",
+      "query": "What is the storage capacity of one Helios Vault unit?",
+      "expected_docs": [
+        "03_battery_storage"
+      ],
+      "expected_substrings": [
+        "13.5"
+      ],
+      "answer": "One Helios Vault unit has a storage capacity of 13.5 kWh [03_battery_storage].",
+      "citations": [
+        "03_battery_storage"
+      ],
+      "reranked_docs": [
+        "03_battery_storage",
+        "02_residential_panels",
+        "05_warranty",
+        "05_warranty",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What is the storage capacity specifications of one Helios Vault unit system?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.953873157501221,
+      "error": null
+    },
+    {
+      "id": "q07",
+      "query": "What rebate is available for pairing the Vault with H-400 panels in Texas?",
+      "expected_docs": [
+        "03_battery_storage"
+      ],
+      "expected_substrings": [
+        "4,000",
+        "Resilient Homes"
+      ],
+      "answer": "In Texas, customers who pair the Helios Vault with H-400 panels qualify for a **$4,000 rebate** through the state's 2025 Resilient Homes program [03_battery_storage].",
+      "citations": [
+        "03_battery_storage"
+      ],
+      "reranked_docs": [
+        "03_battery_storage",
+        "08_customer_case_chen",
+        "05_warranty",
+        "05_warranty",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What rebate discount incentive is available for pairing the Vault battery storage system with H-400 solar panels in Texas state?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.604210138320923,
+      "error": null
+    },
+    {
+      "id": "q08",
+      "query": "How long does a typical installation take?",
+      "expected_docs": [
+        "04_installation_process"
+      ],
+      "expected_substrings": [
+        "1-3 days",
+        "1 to 3 days",
+        "single day"
+      ],
+      "answer": "A typical installation takes 1-3 days on-site, following a 2-week permitting period [04_installation_process]. The process is structured as follows: day one covers roof mounting and panel placement, day two handles electrical and inverter connections, and day three includes commissioning and inspection [04_installation_process]. Single-story homes with simple roof geometry can often be completed in just a single day [04_installation_process].",
+      "citations": [
+        "04_installation_process"
+      ],
+      "reranked_docs": [
+        "04_installation_process",
+        "04_installation_process",
+        "05_warranty",
+        "01_about_helios",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "How long does a typical installation setup take duration time required",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.6394548416137695,
+      "error": null
+    },
+    {
+      "id": "q09",
+      "query": "How long is the H-400 panel power warranty?",
+      "expected_docs": [
+        "05_warranty"
+      ],
+      "expected_substrings": [
+        "25"
+      ],
+      "answer": "The H-400 panel carries a 25-year linear power output warranty, guaranteeing at least 87% of original rated output at year 25 [05_warranty].",
+      "citations": [
+        "05_warranty"
+      ],
+      "reranked_docs": [
+        "05_warranty",
+        "02_residential_panels",
+        "05_warranty",
+        "08_customer_case_chen",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "How long is the H-400 panel power warranty coverage duration?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 3.8483638763427734,
+      "error": null
+    },
+    {
+      "id": "q10",
+      "query": "What is the warranty on the Helios Vault battery?",
+      "expected_docs": [
+        "05_warranty"
+      ],
+      "expected_substrings": [
+        "10",
+        "6,000 cycles"
+      ],
+      "answer": "The Helios Vault battery carries a 10-year warranty or 6,000 cycles, whichever comes first [05_warranty].",
+      "citations": [
+        "05_warranty"
+      ],
+      "reranked_docs": [
+        "05_warranty",
+        "05_warranty",
+        "03_battery_storage",
+        "02_residential_panels",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What is the warranty coverage guarantee on the Helios Vault battery power storage unit?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.233651161193848,
+      "error": null
+    },
+    {
+      "id": "q11",
+      "query": "What was Helios revenue in Q3 2025?",
+      "error": "headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': 'fa2d68b2a4274a7c75b8a890c43fa254', 'date': 'Wed, 06 May 2026 20:55:14 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '2ad134fe-db4f-4bce-914b-798be998d551', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}",
+      "latency": 4.8474390506744385
+    },
+    {
+      "id": "q12",
+      "query": "What was the battery attach rate in Q3 2025?",
+      "expected_docs": [
+        "06_q3_2025_earnings"
+      ],
+      "expected_substrings": [
+        "38"
+      ],
+      "answer": "The battery attach rate in Q3 2025 was 38%, up from 24% in Q3 2024 [06_q3_2025_earnings].",
+      "citations": [
+        "06_q3_2025_earnings"
+      ],
+      "reranked_docs": [
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings",
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What was the battery accessory attachment rate penetration adoption in third quarter Q3 2025?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 10.000972032546997,
+      "error": null
+    },
+    {
+      "id": "q13",
+      "query": "Which state was Helios's largest market in Q3 2025?",
+      "expected_docs": [
+        "06_q3_2025_earnings"
+      ],
+      "expected_substrings": [
+        "Texas",
+        "62%"
+      ],
+      "answer": "Texas was Helios's largest market in Q3 2025, representing 62% of revenue [06_q3_2025_earnings].",
+      "citations": [
+        "06_q3_2025_earnings"
+      ],
+      "reranked_docs": [
+        "06_q3_2025_earnings",
+        "01_about_helios",
+        "01_about_helios",
+        "03_battery_storage",
+        "02_residential_panels"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "Which state was Helios's largest market sales region in the third quarter 2025?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 6.961806297302246,
+      "error": null
+    },
+    {
+      "id": "q14",
+      "query": "What was full year 2025 revenue?",
+      "expected_docs": [
+        "07_q4_2025_earnings"
+      ],
+      "expected_substrings": [
+        "192"
+      ],
+      "answer": "Full-year 2025 revenue was $192 million, which exceeded the $180 million guidance issued in Q1 [07_q4_2025_earnings].",
+      "citations": [
+        "07_q4_2025_earnings"
+      ],
+      "reranked_docs": [
+        "07_q4_2025_earnings",
+        "07_q4_2025_earnings",
+        "06_q3_2025_earnings",
+        "06_q3_2025_earnings",
+        "01_about_helios"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What was the full year 2025 total revenue sales income?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.915982007980347,
+      "error": null
+    },
+    {
+      "id": "q15",
+      "query": "What is the 2026 revenue guidance?",
+      "expected_docs": [
+        "07_q4_2025_earnings"
+      ],
+      "expected_substrings": [
+        "230",
+        "240"
+      ],
+      "answer": "The 2026 revenue guidance is $230-240 million, with the new Resilient Homes rebate cited as a key tailwind [07_q4_2025_earnings].",
+      "citations": [
+        "07_q4_2025_earnings"
+      ],
+      "reranked_docs": [
+        "07_q4_2025_earnings",
+        "07_q4_2025_earnings",
+        "06_q3_2025_earnings",
+        "06_q3_2025_earnings",
+        "01_about_helios"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What is the 2026 revenue forecast guidance projections outlook?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.709060192108154,
+      "error": null
+    },
+    {
+      "id": "q16",
+      "query": "How many panels did the Chen family install?",
+      "expected_docs": [
+        "08_customer_case_chen"
+      ],
+      "expected_substrings": [
+        "22"
+      ],
+      "answer": "The Chen family installed 22 H-400 panels [08_customer_case_chen].",
+      "citations": [
+        "08_customer_case_chen"
+      ],
+      "reranked_docs": [
+        "08_customer_case_chen",
+        "08_customer_case_chen",
+        "01_about_helios",
+        "02_residential_panels",
+        "02_residential_panels"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "How many solar panels photovoltaic modules did the Chen family install?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.404209852218628,
+      "error": null
+    },
+    {
+      "id": "q17",
+      "query": "What was the Chen family's electric bill before solar?",
+      "expected_docs": [
+        "08_customer_case_chen"
+      ],
+      "expected_substrings": [
+        "310"
+      ],
+      "answer": "The Chen family's average electric bill before installing solar was $310/month [08_customer_case_chen].",
+      "citations": [
+        "08_customer_case_chen"
+      ],
+      "reranked_docs": [
+        "08_customer_case_chen",
+        "08_customer_case_chen",
+        "01_about_helios",
+        "09_financing",
+        "04_installation_process"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What was the Chen family's electricity bill electric costs before solar panel installation?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 6.568643093109131,
+      "error": null
+    },
+    {
+      "id": "q18",
+      "query": "What are the Helios financing options?",
+      "expected_docs": [
+        "09_financing"
+      ],
+      "expected_substrings": [
+        "cash",
+        "loan",
+        "PPA"
+      ],
+      "answer": "Helios offers three financing options [09_financing]:\n\n1. **Cash purchase**: Provides a 5% discount off list price with the fastest payback period.\n\n2. **Helios Loan**: Features 6.9-8.4% APR over 12 or 20 year terms, with no down payment required. The customer owns the system.\n\n3. **Power Purchase Agreement (PPA)**: Requires no upfront cost. Customers pay a fixed per-kWh rate (currently 9.2 cents/kWh in Texas) for 25 years, while Helios retains system ownership.\n\nNote that the PPA option is unavailable in Arizona and New Mexico [09_financing].",
+      "citations": [
+        "09_financing"
+      ],
+      "reranked_docs": [
+        "09_financing",
+        "09_financing",
+        "08_customer_case_chen",
+        "01_about_helios",
+        "05_warranty"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What are the Helios financing options payment plans credit terms?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 7.0500569343566895,
+      "error": null
+    },
+    {
+      "id": "q19",
+      "query": "What is the PPA rate per kWh in Texas?",
+      "expected_docs": [
+        "09_financing"
+      ],
+      "expected_substrings": [
+        "9.2"
+      ],
+      "answer": "The PPA rate in Texas is 9.2 cents per kWh [09_financing].",
+      "citations": [
+        "09_financing"
+      ],
+      "reranked_docs": [
+        "09_financing",
+        "09_financing",
+        "02_residential_panels",
+        "08_customer_case_chen",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What is the Power Purchase Agreement rate per kilowatt-hour in Texas electricity market?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 4.714124917984009,
+      "error": null
+    },
+    {
+      "id": "q20",
+      "query": "Why did Helios switch to microinverters in the H-450?",
+      "expected_docs": [
+        "10_engineering_blog_microinverters"
+      ],
+      "expected_substrings": [
+        "partial shading",
+        "8",
+        "13"
+      ],
+      "answer": "Helios switched to microinverters in the H-450 because of superior partial-shading performance. In field tests across 240 Texas installations, microinverter systems produced 8-13% more energy per panel under partial shading conditions compared to string inverters [10_engineering_blog_microinverters]. The tradeoff was an additional cost of roughly $80 per panel, which Helios absorbed into the H-450's premium price [10_engineering_blog_microinverters].",
+      "citations": [
+        "10_engineering_blog_microinverters"
+      ],
+      "reranked_docs": [
+        "10_engineering_blog_microinverters",
+        "10_engineering_blog_microinverters",
+        "02_residential_panels",
+        "05_warranty",
+        "05_warranty"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "Why did Helios switch to microinverters in the H-450 solar panel inverter device?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 6.039222955703735,
+      "error": null
+    },
+    {
+      "id": "q21",
+      "query": "How is Helios's battery business growing year over year?",
+      "expected_docs": [
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings"
+      ],
+      "expected_substrings": [
+        "38",
+        "44",
+        "24"
+      ],
+      "answer": "Helios's battery business showed strong growth in 2025. The battery attach rate (percentage of solar installations that include battery storage) increased from 24% in Q3 2024 to 38% in Q3 2025 [06_q3_2025_earnings], and continued climbing to 44% by Q4 2025 [07_q4_2025_earnings]. This represents an 83% increase in attach rate over the year. \n\nHowever, I don't have enough information in the provided context to quantify the absolute revenue or unit volume growth specifically for the battery segment year-over-year.",
+      "citations": [
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings"
+      ],
+      "reranked_docs": [
+        "03_battery_storage",
+        "01_about_helios",
+        "06_q3_2025_earnings",
+        "09_financing",
+        "07_q4_2025_earnings"
+      ],
+      "confidence": 0.9,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "How is Helios battery business growing year over year annual growth rate expansion?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 7.677523851394653,
+      "error": null
+    },
+    {
+      "id": "q22",
+      "query": "Compare cash purchase vs PPA financing",
+      "expected_docs": [
+        "09_financing"
+      ],
+      "expected_substrings": [
+        "cash",
+        "PPA"
+      ],
+      "answer": "**Cash Purchase** offers a 5% discount off list price and provides the fastest payback. The customer owns the system [09_financing].\n\n**PPA (Power Purchase Agreement)** requires no upfront cost, but Helios retains ownership of the system. The customer pays a fixed rate per kilowatt-hour (currently 9.2 cents/kWh in Texas) for 25 years [09_financing]. However, PPA is unavailable in Arizona and New Mexico [09_financing].\n\nThe key tradeoff: cash purchase requires upfront capital but offers quicker returns and ownership, while PPA eliminates upfront costs but commits customers to 25 years of payments without owning the system.",
+      "citations": [
+        "09_financing"
+      ],
+      "reranked_docs": [
+        "09_financing",
+        "09_financing",
+        "08_customer_case_chen",
+        "06_q3_2025_earnings",
+        "01_about_helios"
+      ],
+      "confidence": 0.85,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "Compare cash purchase versus purchase price allocation financing options and methods",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 15.462738037109375,
+      "error": null
+    },
+    {
+      "id": "q23",
+      "query": "What is the maximum battery capacity available by stacking units?",
+      "expected_docs": [
+        "03_battery_storage"
+      ],
+      "expected_substrings": [
+        "54"
+      ],
+      "answer": "The maximum battery capacity available by stacking units is 54 kWh, achieved by stacking up to four Helios Vault units (each rated at 13.5 kWh) [03_battery_storage].",
+      "citations": [
+        "03_battery_storage"
+      ],
+      "reranked_docs": [
+        "03_battery_storage",
+        "07_q4_2025_earnings",
+        "05_warranty",
+        "10_engineering_blog_microinverters",
+        "02_residential_panels"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What is the maximum battery capacity available by stacking units combining modules linking batteries in series parallel configuration?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.741446018218994,
+      "error": null
+    },
+    {
+      "id": "q24",
+      "query": "Where is Helios headquartered?",
+      "expected_docs": [
+        "01_about_helios"
+      ],
+      "expected_substrings": [
+        "Austin"
+      ],
+      "answer": "Helios Solar is headquartered in Austin, Texas [01_about_helios].",
+      "citations": [
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "01_about_helios",
+        "01_about_helios",
+        "09_financing",
+        "09_financing",
+        "06_q3_2025_earnings"
+      ],
+      "confidence": 0.5,
+      "attempts": 2,
+      "route": "simple",
+      "rewritten": "Where is Helios headquarters located company office address main base",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 9.005078077316284,
+      "error": null
+    },
+    {
+      "id": "q25",
+      "query": "What states does Helios operate in?",
+      "expected_docs": [
+        "01_about_helios"
+      ],
+      "expected_substrings": [
+        "Texas",
+        "Arizona",
+        "New Mexico"
+      ],
+      "answer": "Helios Solar operates in **Texas, Arizona, and New Mexico** [01_about_helios]. Texas is their largest market, representing 62% of revenue, while Arizona has been their fastest-growing market with 41% year-over-year growth [06_q3_2025_earnings].",
+      "citations": [
+        "06_q3_2025_earnings",
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "01_about_helios",
+        "01_about_helios",
+        "09_financing",
+        "09_financing",
+        "06_q3_2025_earnings"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What states or regions does Helios company operate in or have business presence?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.2182698249816895,
+      "error": null
+    },
+    {
+      "id": "q26",
+      "query": "Is the PPA available in all states Helios serves?",
+      "expected_docs": [
+        "09_financing"
+      ],
+      "expected_substrings": [
+        "unavailable",
+        "Arizona",
+        "New Mexico"
+      ],
+      "answer": "No. The PPA is unavailable in Arizona and New Mexico [09_financing]. Since Helios operates in Texas, Arizona, and New Mexico [01_about_helios], this means the PPA is only available in Texas.",
+      "citations": [
+        "09_financing",
+        "01_about_helios"
+      ],
+      "reranked_docs": [
+        "09_financing",
+        "09_financing",
+        "01_about_helios",
+        "01_about_helios",
+        "03_battery_storage"
+      ],
+      "confidence": 0.95,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "Is the Power Purchase Agreement available in all states where Helios operates or provides service?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.9761481285095215,
+      "error": null
+    },
+    {
+      "id": "q27",
+      "query": "What is the production guarantee at year 25 for H-400 panels?",
+      "expected_docs": [
+        "05_warranty"
+      ],
+      "expected_substrings": [
+        "87"
+      ],
+      "answer": "The H-400 panels are guaranteed to produce at least 87% of their original rated output at year 25 [05_warranty].",
+      "citations": [
+        "05_warranty"
+      ],
+      "reranked_docs": [
+        "05_warranty",
+        "02_residential_panels",
+        "05_warranty",
+        "02_residential_panels",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What is the power output guarantee warranty at year 25 for H-400 solar panels photovoltaic modules?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.089011192321777,
+      "error": null
+    },
+    {
+      "id": "q28",
+      "query": "How fast did Arizona grow in Q3 2025?",
+      "expected_docs": [
+        "06_q3_2025_earnings"
+      ],
+      "expected_substrings": [
+        "41"
+      ],
+      "answer": "Arizona grew 41% year-over-year in Q3 2025 [06_q3_2025_earnings].",
+      "citations": [
+        "06_q3_2025_earnings"
+      ],
+      "reranked_docs": [
+        "06_q3_2025_earnings",
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings",
+        "07_q4_2025_earnings",
+        "01_about_helios"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What was the revenue growth rate or expansion metrics for Arizona region in third quarter 2025?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 5.015244245529175,
+      "error": null
+    },
+    {
+      "id": "q29",
+      "query": "What was the gross margin in Q3 2025?",
+      "expected_docs": [
+        "06_q3_2025_earnings"
+      ],
+      "expected_substrings": [
+        "31"
+      ],
+      "answer": "The gross margin in Q3 2025 was 31.4% [06_q3_2025_earnings].",
+      "citations": [
+        "06_q3_2025_earnings"
+      ],
+      "reranked_docs": [
+        "06_q3_2025_earnings",
+        "06_q3_2025_earnings",
+        "07_q4_2025_earnings",
+        "07_q4_2025_earnings",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "simple",
+      "rewritten": "What was the gross margin in third quarter 2025?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 3.8714027404785156,
+      "error": null
+    },
+    {
+      "id": "q30",
+      "query": "What is the meaning of life?",
+      "expected_docs": [],
+      "expected_substrings": [
+        "I don't have",
+        "no information",
+        "not contain"
+      ],
+      "answer": "I don't have enough information in the provided context to answer that.",
+      "citations": [],
+      "reranked_docs": [
+        "04_installation_process",
+        "05_warranty",
+        "10_engineering_blog_microinverters",
+        "07_q4_2025_earnings",
+        "08_customer_case_chen"
+      ],
+      "confidence": 1.0,
+      "attempts": 1,
+      "route": "multi_hop",
+      "rewritten": "What is the purpose meaning significance of life existence?",
+      "answer_match": true,
+      "citation_hit": true,
+      "retrieval_at_5": true,
+      "latency": 3.7070388793945312,
+      "error": null
+    }
+  ]
+}
