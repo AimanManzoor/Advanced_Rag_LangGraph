@@ -1,0 +1,135 @@
+[
+  {
+    "doc_id": "01_about_helios",
+    "chunk_index": 0,
+    "chunk_text": "# About Helios Solar\n\nHelios Solar was founded in 2014 in Austin, Texas by Maya Chen and Daniel Park, both former engineers at a national utility. The company designs and installs residential solar systems across Texas, Arizona, and New Mexico. As of 2025, Helios has installed over 12,000 systems and employs 340 people across three offices.",
+    "context": "This chunk provides foundational information about Helios Solar's origins, leadership, geographic operations, and current scale. It serves as an introductory overview before the document details the company's core mission regarding solar affordability.",
+    "embedding_text": "This chunk provides foundational information about Helios Solar's origins, leadership, geographic operations, and current scale. It serves as an introductory overview before the document details the company's core mission regarding solar affordability.\n\n# About Helios Solar\n\nHelios Solar was founded in 2014 in Austin, Texas by Maya Chen and Daniel Park, both former engineers at a national utility. The company designs and installs residential solar systems across Texas, Arizona, and New Mexico. As of 2025, Helios has installed over 12,000 systems and employs 340 people across three offices."
+  },
+  {
+    "doc_id": "01_about_helios",
+    "chunk_index": 1,
+    "chunk_text": "The mission is to make rooftop solar economically obvious for the average homeowner \u2014 meaning a payback period under 7 years without subsidies.",
+    "context": "Helios Solar is a residential solar installation company founded in 2014 that operates across Texas, Arizona, and New Mexico, and their core mission is defined by a specific economic goal.",
+    "embedding_text": "Helios Solar is a residential solar installation company founded in 2014 that operates across Texas, Arizona, and New Mexico, and their core mission is defined by a specific economic goal.\n\nThe mission is to make rooftop solar economically obvious for the average homeowner \u2014 meaning a payback period under 7 years without subsidies."
+  },
+  {
+    "doc_id": "02_residential_panels",
+    "chunk_index": 0,
+    "chunk_text": "# Residential Solar Panel Lineup (2025)\n\nHelios offers three panel tiers. The H-300 is the entry tier at 300W per panel, monocrystalline, with a 20-year power warranty. The H-400 is the mid-tier at 400W with bifacial cells and a 25-year warranty. The flagship H-450 produces 450W and includes integrated microinverters.",
+    "context": "This section introduces Helios's three residential solar panel product tiers, detailing their wattage outputs, key features, and warranty periods. It provides foundational product specifications that contextualize the system sizing example given in the following paragraph.",
+    "embedding_text": "This section introduces Helios's three residential solar panel product tiers, detailing their wattage outputs, key features, and warranty periods. It provides foundational product specifications that contextualize the system sizing example given in the following paragraph.\n\n# Residential Solar Panel Lineup (2025)\n\nHelios offers three panel tiers. The H-300 is the entry tier at 300W per panel, monocrystalline, with a 20-year power warranty. The H-400 is the mid-tier at 400W with bifacial cells and a 25-year warranty. The flagship H-450 produces 450W and includes integrated microinverters."
+  },
+  {
+    "doc_id": "02_residential_panels",
+    "chunk_index": 1,
+    "chunk_text": "A typical 4-bedroom home in Austin needs 18-22 panels of the H-400, generating roughly 7.6 kW peak.",
+    "context": "This chunk provides a practical example of Helios solar panel system sizing and output capacity for residential applications, demonstrating how the mid-tier H-400 model is applied to meet typical household energy needs.",
+    "embedding_text": "This chunk provides a practical example of Helios solar panel system sizing and output capacity for residential applications, demonstrating how the mid-tier H-400 model is applied to meet typical household energy needs.\n\nA typical 4-bedroom home in Austin needs 18-22 panels of the H-400, generating roughly 7.6 kW peak."
+  },
+  {
+    "doc_id": "03_battery_storage",
+    "chunk_index": 0,
+    "chunk_text": "# Helios Battery Storage\n\nThe Helios Vault is a lithium iron phosphate (LFP) battery system rated at 13.5 kWh per unit. Up to four units can be stacked for a total of 54 kWh. The Vault includes a hybrid inverter and is compatible with all Helios panel tiers.\n\nIn Texas, customers who pair the Vault with H-400 panels qualify for a $4,000 rebate through the state's 2025 Resilient Homes program.",
+    "context": "This chunk contains the complete document about Helios Battery Storage, detailing the specifications, capacity, and features of the Helios Vault LFP battery system, as well as available rebate incentives for Texas customers.",
+    "embedding_text": "This chunk contains the complete document about Helios Battery Storage, detailing the specifications, capacity, and features of the Helios Vault LFP battery system, as well as available rebate incentives for Texas customers.\n\n# Helios Battery Storage\n\nThe Helios Vault is a lithium iron phosphate (LFP) battery system rated at 13.5 kWh per unit. Up to four units can be stacked for a total of 54 kWh. The Vault includes a hybrid inverter and is compatible with all Helios panel tiers.\n\nIn Texas, customers who pair the Vault with H-400 panels qualify for a $4,000 rebate through the state's 2025 Resilient Homes program."
+  },
+  {
+    "doc_id": "04_installation_process",
+    "chunk_index": 0,
+    "chunk_text": "# Installation Process\n\nA typical installation takes 1-3 days on-site after a 2-week permitting period. The crew arrives at 7am, completes roof mounting and panel placement on day one, runs electrical and inverter connections on day two, and performs commissioning and inspection on day three. Single-story homes with simple roof geometry often finish in a single day.",
+    "context": "This section describes the typical timeline and daily breakdown of a solar panel installation project, from initial permitting through final commissioning.",
+    "embedding_text": "This section describes the typical timeline and daily breakdown of a solar panel installation project, from initial permitting through final commissioning.\n\n# Installation Process\n\nA typical installation takes 1-3 days on-site after a 2-week permitting period. The crew arrives at 7am, completes roof mounting and panel placement on day one, runs electrical and inverter connections on day two, and performs commissioning and inspection on day three. Single-story homes with simple roof geometry often finish in a single day."
+  },
+  {
+    "doc_id": "04_installation_process",
+    "chunk_index": 1,
+    "chunk_text": "The customer is not required to be present after the initial walkthrough.",
+    "context": "After completing the installation process, which typically spans 1-3 days on-site with specific tasks scheduled each day, customers should know about their presence requirements during the work.",
+    "embedding_text": "After completing the installation process, which typically spans 1-3 days on-site with specific tasks scheduled each day, customers should know about their presence requirements during the work.\n\nThe customer is not required to be present after the initial walkthrough."
+  },
+  {
+    "doc_id": "05_warranty",
+    "chunk_index": 0,
+    "chunk_text": "# Warranty Terms\n\nThe H-400 and H-450 panels carry a 25-year linear power output warranty: at year 25, panels are guaranteed to produce at least 87% of their original rated output. Workmanship on the mounting and electrical work is warrantied for 10 years. The Helios Vault battery carries a 10-year warranty or 6,000 cycles, whichever comes first.",
+    "context": "This section outlines the warranty coverage for Helios solar panels and battery systems, detailing the duration and terms for power output, workmanship, and battery warranties.",
+    "embedding_text": "This section outlines the warranty coverage for Helios solar panels and battery systems, detailing the duration and terms for power output, workmanship, and battery warranties.\n\n# Warranty Terms\n\nThe H-400 and H-450 panels carry a 25-year linear power output warranty: at year 25, panels are guaranteed to produce at least 87% of their original rated output. Workmanship on the mounting and electrical work is warrantied for 10 years. The Helios Vault battery carries a 10-year warranty or 6,000 cycles, whichever comes first."
+  },
+  {
+    "doc_id": "05_warranty",
+    "chunk_index": 1,
+    "chunk_text": "Warranty claims are processed within 30 days of submission.",
+    "context": "This statement specifies the timeframe for handling warranty claims across all the products covered by the warranty terms, including the H-400 and H-450 panels and Helios Vault battery.",
+    "embedding_text": "This statement specifies the timeframe for handling warranty claims across all the products covered by the warranty terms, including the H-400 and H-450 panels and Helios Vault battery.\n\nWarranty claims are processed within 30 days of submission."
+  },
+  {
+    "doc_id": "06_q3_2025_earnings",
+    "chunk_index": 0,
+    "chunk_text": "# Q3 2025 Earnings Summary\n\nRevenue was $48.2 million, up 22% year-over-year. Installations totaled 1,140 systems, with the H-400 accounting for 71% of panels shipped. Battery attach rate reached 38%, up from 24% in Q3 2024. Gross margin expanded to 31.4%.",
+    "context": "This section presents the key financial and operational metrics for Q3 2025, including revenue growth, installation volumes, product mix, and profitability. It precedes details about geographic market performance and corporate expansion activities.",
+    "embedding_text": "This section presents the key financial and operational metrics for Q3 2025, including revenue growth, installation volumes, product mix, and profitability. It precedes details about geographic market performance and corporate expansion activities.\n\n# Q3 2025 Earnings Summary\n\nRevenue was $48.2 million, up 22% year-over-year. Installations totaled 1,140 systems, with the H-400 accounting for 71% of panels shipped. Battery attach rate reached 38%, up from 24% in Q3 2024. Gross margin expanded to 31.4%."
+  },
+  {
+    "doc_id": "06_q3_2025_earnings",
+    "chunk_index": 1,
+    "chunk_text": "Texas remained the largest market at 62% of revenue. Arizona grew fastest at 41% YoY. The company added 28 employees during the quarter and opened a new warehouse in Phoenix.",
+    "context": "This chunk discusses the company's geographic market performance and operational expansion during Q3 2025, following sections on overall revenue growth, product installation metrics, and margin improvements.",
+    "embedding_text": "This chunk discusses the company's geographic market performance and operational expansion during Q3 2025, following sections on overall revenue growth, product installation metrics, and margin improvements.\n\nTexas remained the largest market at 62% of revenue. Arizona grew fastest at 41% YoY. The company added 28 employees during the quarter and opened a new warehouse in Phoenix."
+  },
+  {
+    "doc_id": "07_q4_2025_earnings",
+    "chunk_index": 0,
+    "chunk_text": "# Q4 2025 Earnings Summary\n\nRevenue was $54.7 million, up 19% year-over-year. The full-year 2025 total reached $192 million, exceeding the $180 million guidance issued in Q1. Battery attach rate climbed to 44% in Q4. Operating cash flow was positive for the third consecutive quarter at $6.1 million.",
+    "context": "This chunk contains the key Q4 2025 financial metrics and full-year performance results, covering revenue growth, profitability guidance achievements, and operational cash flow improvements. The following sentence discusses the company's 2026 revenue outlook and growth drivers.",
+    "embedding_text": "This chunk contains the key Q4 2025 financial metrics and full-year performance results, covering revenue growth, profitability guidance achievements, and operational cash flow improvements. The following sentence discusses the company's 2026 revenue outlook and growth drivers.\n\n# Q4 2025 Earnings Summary\n\nRevenue was $54.7 million, up 19% year-over-year. The full-year 2025 total reached $192 million, exceeding the $180 million guidance issued in Q1. Battery attach rate climbed to 44% in Q4. Operating cash flow was positive for the third consecutive quarter at $6.1 million."
+  },
+  {
+    "doc_id": "07_q4_2025_earnings",
+    "chunk_index": 1,
+    "chunk_text": "The company guided to $230-240 million in revenue for 2026, citing the new Resilient Homes rebate as a key tailwind.",
+    "context": "The company exceeded its 2025 revenue guidance of $180 million by reaching $192 million, and is now providing forward guidance for the following year based on expected market tailwinds.",
+    "embedding_text": "The company exceeded its 2025 revenue guidance of $180 million by reaching $192 million, and is now providing forward guidance for the following year based on expected market tailwinds.\n\nThe company guided to $230-240 million in revenue for 2026, citing the new Resilient Homes rebate as a key tailwind."
+  },
+  {
+    "doc_id": "08_customer_case_chen",
+    "chunk_index": 0,
+    "chunk_text": "# Customer Case: The Chen Household, Round Rock TX\n\nThe Chens installed 22 H-400 panels and one Helios Vault in March 2025. Their average pre-install electric bill was $310/month. Six months post-install, the average bill is $14/month \u2014 primarily a connection fee. The system generated 9,820 kWh in those six months, exceeding modeled output by 4%.",
+    "context": "This chunk contains the main performance and outcome data for the Chen household's solar installation, establishing their dramatic bill reduction and system efficiency before the financing details are mentioned.",
+    "embedding_text": "This chunk contains the main performance and outcome data for the Chen household's solar installation, establishing their dramatic bill reduction and system efficiency before the financing details are mentioned.\n\n# Customer Case: The Chen Household, Round Rock TX\n\nThe Chens installed 22 H-400 panels and one Helios Vault in March 2025. Their average pre-install electric bill was $310/month. Six months post-install, the average bill is $14/month \u2014 primarily a connection fee. The system generated 9,820 kWh in those six months, exceeding modeled output by 4%."
+  },
+  {
+    "doc_id": "08_customer_case_chen",
+    "chunk_index": 1,
+    "chunk_text": "The Chens financed through a 12-year Helios loan at 6.9% APR.",
+    "context": "The Chen household's solar installation in Round Rock, TX achieved dramatic energy bill reductions, cutting their monthly costs from $310 to $14. To fund their system of 22 H-400 panels and a Helios Vault, the Chens chose a financing option available through the solar provider.",
+    "embedding_text": "The Chen household's solar installation in Round Rock, TX achieved dramatic energy bill reductions, cutting their monthly costs from $310 to $14. To fund their system of 22 H-400 panels and a Helios Vault, the Chens chose a financing option available through the solar provider.\n\nThe Chens financed through a 12-year Helios loan at 6.9% APR."
+  },
+  {
+    "doc_id": "09_financing",
+    "chunk_index": 0,
+    "chunk_text": "# Financing Options\n\nHelios offers three financing paths. Cash purchase: 5% discount off list price, fastest payback. Helios Loan: 6.9-8.4% APR over 12 or 20 years, no down payment, the customer owns the system. Power Purchase Agreement (PPA): no upfront cost, customer pays a fixed per-kWh rate (currently 9.2 cents/kWh in Texas) for 25 years, Helios owns the system.",
+    "context": "This section describes Helios's three main financing options for solar systems: cash purchase with a discount, a loan with flexible terms, and a Power Purchase Agreement. A note following this section specifies that the PPA option is not available in Arizona and New Mexico.",
+    "embedding_text": "This section describes Helios's three main financing options for solar systems: cash purchase with a discount, a loan with flexible terms, and a Power Purchase Agreement. A note following this section specifies that the PPA option is not available in Arizona and New Mexico.\n\n# Financing Options\n\nHelios offers three financing paths. Cash purchase: 5% discount off list price, fastest payback. Helios Loan: 6.9-8.4% APR over 12 or 20 years, no down payment, the customer owns the system. Power Purchase Agreement (PPA): no upfront cost, customer pays a fixed per-kWh rate (currently 9.2 cents/kWh in Texas) for 25 years, Helios owns the system."
+  },
+  {
+    "doc_id": "09_financing",
+    "chunk_index": 1,
+    "chunk_text": "The PPA is unavailable in Arizona and New Mexico.",
+    "context": "Helios offers three financing options for solar systems: cash purchase with a 5% discount, a loan with 6.9-8.4% APR, and a Power Purchase Agreement (PPA) where customers pay a fixed per-kWh rate for 25 years without upfront costs.",
+    "embedding_text": "Helios offers three financing options for solar systems: cash purchase with a 5% discount, a loan with 6.9-8.4% APR, and a Power Purchase Agreement (PPA) where customers pay a fixed per-kWh rate for 25 years without upfront costs.\n\nThe PPA is unavailable in Arizona and New Mexico."
+  },
+  {
+    "doc_id": "10_engineering_blog_microinverters",
+    "chunk_index": 0,
+    "chunk_text": "# Engineering Notes: Why We Moved to Microinverters in the H-450\n\nThe H-450 ships with integrated microinverters rather than a string inverter. This decision was driven by partial-shading performance: in our field tests across 240 Texas installations, microinverter systems produced 8-13% more energy per panel under partial shading conditions versus string inverters.",
+    "context": "The document explains the engineering rationale behind using microinverters in the H-450 model, noting their performance advantages in partial-shading scenarios based on extensive field testing. However, this performance benefit comes with a cost tradeoff of approximately $80 per panel, which is reflected in the product's premium pricing.",
+    "embedding_text": "The document explains the engineering rationale behind using microinverters in the H-450 model, noting their performance advantages in partial-shading scenarios based on extensive field testing. However, this performance benefit comes with a cost tradeoff of approximately $80 per panel, which is reflected in the product's premium pricing.\n\n# Engineering Notes: Why We Moved to Microinverters in the H-450\n\nThe H-450 ships with integrated microinverters rather than a string inverter. This decision was driven by partial-shading performance: in our field tests across 240 Texas installations, microinverter systems produced 8-13% more energy per panel under partial shading conditions versus string inverters."
+  },
+  {
+    "doc_id": "10_engineering_blog_microinverters",
+    "chunk_index": 1,
+    "chunk_text": "The tradeoff is per-panel cost: microinverters add roughly $80 per panel. We absorbed this into the H-450 premium price.",
+    "context": "The H-450 uses microinverters instead of string inverters to improve energy production by 8-13% under partial shading, but this design choice comes with a cost consideration.",
+    "embedding_text": "The H-450 uses microinverters instead of string inverters to improve energy production by 8-13% under partial shading, but this design choice comes with a cost consideration.\n\nThe tradeoff is per-panel cost: microinverters add roughly $80 per panel. We absorbed this into the H-450 premium price."
+  }
+]
