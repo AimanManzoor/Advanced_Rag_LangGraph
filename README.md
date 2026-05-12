@@ -16,6 +16,17 @@ the StateGraph diagram, measured eval results, and known weaknesses.
 - Side-by-side vanilla vs contextual Chroma indices for ablation
 - Cost-conscious model assignment: 80% Haiku, 20% Sonnet
 
+## Live Demo (local)
+
+![Helios RAG Streamlit demo](docs/screenshots/streamlit_demo.png)
+
+A Streamlit chat interface (`app.py`) wraps the LangGraph pipeline. Each query shows the routed path, self-check confidence, retry attempts, and cited sources alongside the answer. Cloud deployment to HuggingFace Spaces is on the v0.2 roadmap.
+
+**Run locally:**
+
+```bash
+streamlit run app.py
+```
 ## Quick start
 
 See [Reproducing the results](docs/architecture.md#reproducing-the-results) 
